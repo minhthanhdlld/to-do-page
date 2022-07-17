@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.7.9 on win32)" generated="20220717 11:14:06.649" rpa="false">
+<suite id="s1" name="Test" source="D:\utomation\Todopage\test.robot">
+<test id="s1-t1" name="Test case 01">
+<kw name="Open to do page">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Open to_do page ...</arg>
+</arguments>
+<status status="PASS" starttime="20220717 11:14:06.882" endtime="20220717 11:14:06.883"></status>
+</kw>
+<kw name="Open Web Browser" library="Function">
+<arguments>
+<arg>${url}</arg>
+</arguments>
+<status status="PASS" starttime="20220717 11:14:06.883" endtime="20220717 11:14:09.303"></status>
+</kw>
+<kw name="Login With Github" library="Function">
+<arguments>
+<arg>${username}</arg>
+<arg>${password}</arg>
+</arguments>
+<msg timestamp="20220717 11:14:17.166" level="INFO">don't need authority</msg>
+<status status="PASS" starttime="20220717 11:14:09.303" endtime="20220717 11:14:17.166"></status>
+</kw>
+<status status="PASS" starttime="20220717 11:14:06.882" endtime="20220717 11:14:17.166"></status>
+</kw>
+<kw name="Create list to do">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Creat list on to_do page ...</arg>
+</arguments>
+<status status="PASS" starttime="20220717 11:14:17.167" endtime="20220717 11:14:17.167"></status>
+</kw>
+<kw name="Create List To Do On Web Browser" library="Function">
+<status status="PASS" starttime="20220717 11:14:17.167" endtime="20220717 11:14:20.787"></status>
+</kw>
+<status status="PASS" starttime="20220717 11:14:17.166" endtime="20220717 11:14:20.787"></status>
+</kw>
+<kw name="Log out to to page">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Close to to page ...</arg>
+</arguments>
+<status status="PASS" starttime="20220717 11:14:20.787" endtime="20220717 11:14:20.788"></status>
+</kw>
+<kw name="Logout To Do Page" library="Function">
+<status status="PASS" starttime="20220717 11:14:20.788" endtime="20220717 11:14:20.830"></status>
+</kw>
+<kw name="Close Web Browser" library="Function">
+<status status="PASS" starttime="20220717 11:14:20.830" endtime="20220717 11:14:27.103"></status>
+</kw>
+<status status="PASS" starttime="20220717 11:14:20.787" endtime="20220717 11:14:27.104"></status>
+</kw>
+<kw name="Open to do page">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Open to_do page ...</arg>
+</arguments>
+<status status="PASS" starttime="20220717 11:14:27.104" endtime="20220717 11:14:27.104"></status>
+</kw>
+<kw name="Open Web Browser" library="Function">
+<arguments>
+<arg>${url}</arg>
+</arguments>
+<status status="PASS" starttime="20220717 11:14:27.104" endtime="20220717 11:14:29.502"></status>
+</kw>
+<kw name="Login With Github" library="Function">
+<arguments>
+<arg>${username}</arg>
+<arg>${password}</arg>
+</arguments>
+<msg timestamp="20220717 11:14:36.446" level="INFO">don't need authority</msg>
+<status status="PASS" starttime="20220717 11:14:29.502" endtime="20220717 11:14:36.446"></status>
+</kw>
+<status status="PASS" starttime="20220717 11:14:27.104" endtime="20220717 11:14:36.447"></status>
+</kw>
+<kw name="Delete list 5 to 10">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Delete list 5-10 on to_do page ...</arg>
+</arguments>
+<status status="PASS" starttime="20220717 11:14:36.447" endtime="20220717 11:14:36.447"></status>
+</kw>
+<kw name="Delete List To Do From 5 To 10 On Web Browser" library="Function">
+<status status="PASS" starttime="20220717 11:14:36.447" endtime="20220717 11:14:43.259"></status>
+</kw>
+<status status="PASS" starttime="20220717 11:14:36.447" endtime="20220717 11:14:43.259"></status>
+</kw>
+<kw name="Log out to to page">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Close to to page ...</arg>
+</arguments>
+<status status="PASS" starttime="20220717 11:14:43.259" endtime="20220717 11:14:43.259"></status>
+</kw>
+<kw name="Logout To Do Page" library="Function">
+<status status="PASS" starttime="20220717 11:14:43.259" endtime="20220717 11:14:43.297"></status>
+</kw>
+<kw name="Close Web Browser" library="Function">
+<status status="PASS" starttime="20220717 11:14:43.297" endtime="20220717 11:14:45.518"></status>
+</kw>
+<status status="PASS" starttime="20220717 11:14:43.259" endtime="20220717 11:14:45.519"></status>
+</kw>
+<kw name="Run Keywords" library="BuiltIn" type="teardown">
+<doc>Executes all the given keywords in a sequence.</doc>
+<arguments>
+<arg>Open to do page</arg>
+<arg>AND</arg>
+<arg>Delete all list to do</arg>
+<arg>AND</arg>
+<arg>Log out to to page</arg>
+</arguments>
+<kw name="Open to do page">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Open to_do page ...</arg>
+</arguments>
+<status status="PASS" starttime="20220717 11:14:45.520" endtime="20220717 11:14:45.520"></status>
+</kw>
+<kw name="Open Web Browser" library="Function">
+<arguments>
+<arg>${url}</arg>
+</arguments>
+<status status="PASS" starttime="20220717 11:14:45.520" endtime="20220717 11:14:47.464"></status>
+</kw>
+<kw name="Login With Github" library="Function">
+<arguments>
+<arg>${username}</arg>
+<arg>${password}</arg>
+</arguments>
+<msg timestamp="20220717 11:14:54.315" level="INFO">don't need authority</msg>
+<status status="PASS" starttime="20220717 11:14:47.464" endtime="20220717 11:14:54.315"></status>
+</kw>
+<status status="PASS" starttime="20220717 11:14:45.519" endtime="20220717 11:14:54.315"></status>
+</kw>
+<kw name="Delete all list to do">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Delete all list todo ...</arg>
+</arguments>
+<status status="PASS" starttime="20220717 11:14:54.316" endtime="20220717 11:14:54.316"></status>
+</kw>
+<kw name="Delete All List" library="Function">
+<msg timestamp="20220717 11:15:01.592" level="INFO">Don't have any list</msg>
+<status status="PASS" starttime="20220717 11:14:54.316" endtime="20220717 11:15:01.592"></status>
+</kw>
+<status status="PASS" starttime="20220717 11:14:54.315" endtime="20220717 11:15:01.592"></status>
+</kw>
+<kw name="Log out to to page">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Close to to page ...</arg>
+</arguments>
+<status status="PASS" starttime="20220717 11:15:01.593" endtime="20220717 11:15:01.593"></status>
+</kw>
+<kw name="Logout To Do Page" library="Function">
+<status status="PASS" starttime="20220717 11:15:01.593" endtime="20220717 11:15:01.630"></status>
+</kw>
+<kw name="Close Web Browser" library="Function">
+<status status="PASS" starttime="20220717 11:15:01.630" endtime="20220717 11:15:03.849"></status>
+</kw>
+<status status="PASS" starttime="20220717 11:15:01.592" endtime="20220717 11:15:03.849"></status>
+</kw>
+<status status="PASS" starttime="20220717 11:14:45.519" endtime="20220717 11:15:03.849"></status>
+</kw>
+<tags>
+<tag>TC01</tag>
+</tags>
+<status status="PASS" starttime="20220717 11:14:06.882" endtime="20220717 11:15:03.849" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20220717 11:14:06.652" endtime="20220717 11:15:03.850"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0">TC01</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Test">Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
